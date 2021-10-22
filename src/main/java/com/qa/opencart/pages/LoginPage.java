@@ -46,7 +46,7 @@ public class LoginPage {
 	
 	@Step("checking  register link is exist or not....")
 	public boolean isRegisterLinkExist() {
-		elementUtil.doClick(logoutLink);
+//		elementUtil.doClick(logoutLink);
 		return elementUtil.doIsDiplayed(registerLink);
 	}
 	
